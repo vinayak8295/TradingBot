@@ -1,15 +1,9 @@
-import os
-
 from binance.client import Client
-from binance.enums import *
 from binance.exceptions import BinanceAPIException, BinanceOrderException
 import websocket
 import smtplib
-import asyncio
 
-import requests
 import json
-from apscheduler.schedulers.blocking import BlockingScheduler
 
 # init
 api_key = ''#Enter your api key here
